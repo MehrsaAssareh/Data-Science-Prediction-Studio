@@ -1,7 +1,8 @@
 from pathlib import Path
 from tkinter import PhotoImage
 
-from ttkbootstrap import Frame, Label, Button, OUTLINE, INFO, PRIMARY, SUCCESS
+from ttkbootstrap import Button, Frame, Label
+from ttkbootstrap.constants import INFO, OUTLINE, PRIMARY
 from BusinessLogicLayer.DatasetCatalog import get_dataset_catalog
 
 

@@ -2,7 +2,7 @@ from pathlib import Path
 from tkinter import PhotoImage, StringVar, messagebox as msg
 from tkinter.ttk import Labelframe
 from ttkbootstrap import Button, Combobox, Entry, Frame, Label
-from ttkbootstrap import DANGER, INFO, OUTLINE, PRIMARY, SECONDARY, SUCCESS, WARNING
+from ttkbootstrap.constants import DANGER, INFO, OUTLINE, PRIMARY, SECONDARY, SUCCESS, WARNING
 from BusinessLogicLayer.DatasetPrediction_BLL import DatasetPrediction_BLL_Class
 from .FormLayout import apply_readonly_value_style
 
