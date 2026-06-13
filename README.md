@@ -137,13 +137,26 @@ python Main.py
 
 ## How to Run the Windows EXE
 
-If the executable has been built locally, open this file:
+Download the Windows package from the GitHub release:
+
+[Download DataSciencePredictionStudio-Windows.zip](https://github.com/MehrsaAssareh/Data-Science-Prediction-Studio/releases/download/v1.0.0/DataSciencePredictionStudio-Windows.zip)
+
+After downloading:
+
+1. Right-click `DataSciencePredictionStudio-Windows.zip`.
+2. Choose `Extract All`.
+3. Open the extracted `DataSciencePredictionStudio` folder.
+4. Run `DataSciencePredictionStudio.exe`.
+
+Important: do not run the exe directly from inside the zip file. Extract the zip first.
+
+Also, keep `DataSciencePredictionStudio.exe` in the same folder as `_internal`. The executable uses the `_internal` folder beside it for Python libraries, trained models, datasets, and image assets.
+
+If the executable has been built locally instead of downloaded from GitHub, open this file:
 
 ```text
 dist\DataSciencePredictionStudio\DataSciencePredictionStudio.exe
 ```
-
-Important: keep the whole `dist\DataSciencePredictionStudio` folder together. The executable uses the `_internal` folder beside it for Python libraries, trained models, datasets, and image assets.
 
 ## How to Use the App
 
