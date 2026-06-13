@@ -1,0 +1,46 @@
+{
+    "feature_names": [
+        "mcv",
+        "alkphos",
+        "sgpt",
+        "sgot",
+        "gammagt",
+        "drinks"
+    ],
+    "feature_ranges": {
+        "mcv": {
+            "min": 65.0,
+            "max": 103.0,
+            "mean": 90.15942028985508
+        },
+        "alkphos": {
+            "min": 23.0,
+            "max": 138.0,
+            "mean": 69.8695652173913
+        },
+        "sgpt": {
+            "min": 4.0,
+            "max": 155.0,
+            "mean": 30.405797101449274
+        },
+        "sgot": {
+            "min": 5.0,
+            "max": 82.0,
+            "mean": 24.643478260869564
+        },
+        "gammagt": {
+            "min": 5.0,
+            "max": 297.0,
+            "mean": 38.28405797101449
+        },
+        "drinks": {
+            "min": 0.0,
+            "max": 20.0,
+            "mean": 3.455072463768116
+        }
+    },
+    "cluster_descriptions": {
+        "0": "Typical enzyme and alcohol-intake pattern",
+        "1": "Elevated enzyme pattern with higher Gamma-GT and alcohol intake"
+    }
+}

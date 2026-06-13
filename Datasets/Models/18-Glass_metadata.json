@@ -1,0 +1,69 @@
+{
+    "feature_names": [
+        "RI",
+        "Na",
+        "Mg",
+        "AI",
+        "Si",
+        "K",
+        "Ca",
+        "Ba",
+        "Fe"
+    ],
+    "target_mapping": {
+        "1": "Building Window (Float)",
+        "2": "Building Window (Non-Float)",
+        "3": "Vehicle Window (Float)",
+        "4": "Vehicle Window (Non-Float)",
+        "5": "Container / Bottle",
+        "6": "Tableware",
+        "7": "Headlamps"
+    },
+    "feature_ranges": {
+        "RI": {
+            "min": 1.51115,
+            "max": 1.53393,
+            "mean": 1.5183654205607477
+        },
+        "Na": {
+            "min": 10.73,
+            "max": 17.38,
+            "mean": 13.407850467289718
+        },
+        "Mg": {
+            "min": 0.0,
+            "max": 4.49,
+            "mean": 2.684532710280374
+        },
+        "AI": {
+            "min": 0.29,
+            "max": 3.5,
+            "mean": 1.444906542056075
+        },
+        "Si": {
+            "min": 69.81,
+            "max": 75.41,
+            "mean": 72.65093457943925
+        },
+        "K": {
+            "min": 0.0,
+            "max": 6.21,
+            "mean": 0.4970560747663551
+        },
+        "Ca": {
+            "min": 5.43,
+            "max": 16.19,
+            "mean": 8.95696261682243
+        },
+        "Ba": {
+            "min": 0.0,
+            "max": 3.15,
+            "mean": 0.17504672897196263
+        },
+        "Fe": {
+            "min": 0.0,
+            "max": 0.51,
+            "mean": 0.05700934579439253
+        }
+    }
+}

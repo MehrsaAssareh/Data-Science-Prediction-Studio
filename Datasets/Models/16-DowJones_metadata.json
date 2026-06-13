@@ -1,0 +1,138 @@
+{
+    "feature_names": [
+        "quarter",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "percent_change_price",
+        "percent_change_volume_over_last_wk",
+        "percent_change_next_weeks_price",
+        "days_to_next_dividend",
+        "stock_AXP",
+        "stock_BA",
+        "stock_BAC",
+        "stock_CAT",
+        "stock_CSCO",
+        "stock_CVX",
+        "stock_DD",
+        "stock_DIS",
+        "stock_GE",
+        "stock_HD",
+        "stock_HPQ",
+        "stock_IBM",
+        "stock_INTC",
+        "stock_JNJ",
+        "stock_JPM",
+        "stock_KO",
+        "stock_KRFT",
+        "stock_MCD",
+        "stock_MMM",
+        "stock_MRK",
+        "stock_MSFT",
+        "stock_PFE",
+        "stock_PG",
+        "stock_T",
+        "stock_TRV",
+        "stock_UTX",
+        "stock_VZ",
+        "stock_WMT",
+        "stock_XOM",
+        "volume_ratio",
+        "volume_delta"
+    ],
+    "stock_tickers": [
+        "AXP",
+        "BA",
+        "BAC",
+        "CAT",
+        "CSCO",
+        "CVX",
+        "DD",
+        "DIS",
+        "GE",
+        "HD",
+        "HPQ",
+        "IBM",
+        "INTC",
+        "JNJ",
+        "JPM",
+        "KO",
+        "KRFT",
+        "MCD",
+        "MMM",
+        "MRK",
+        "MSFT",
+        "PFE",
+        "PG",
+        "T",
+        "TRV",
+        "UTX",
+        "VZ",
+        "WMT",
+        "XOM"
+    ],
+    "numeric_features": {
+        "quarter": {
+            "min": 1.0,
+            "max": 2.0,
+            "mean": 1.52
+        },
+        "open": {
+            "min": 10.59,
+            "max": 172.11,
+            "mean": 53.65184000000001
+        },
+        "high": {
+            "min": 10.94,
+            "max": 173.54,
+            "mean": 54.669986666666674
+        },
+        "low": {
+            "min": 10.4,
+            "max": 167.82,
+            "mean": 52.64016
+        },
+        "close": {
+            "min": 10.52,
+            "max": 170.58,
+            "mean": 53.729266666666675
+        },
+        "volume": {
+            "min": 9718851.0,
+            "max": 1453438639.0,
+            "mean": 117547801.40666667
+        },
+        "percent_change_price": {
+            "min": -15.4229,
+            "max": 9.88223,
+            "mean": 0.05026240999999999
+        },
+        "percent_change_volume_over_last_wk": {
+            "min": -61.43317522,
+            "max": 327.4089238,
+            "mean": 5.593626545062499
+        },
+        "percent_change_next_weeks_price": {
+            "min": -15.4229,
+            "max": 9.88223,
+            "mean": 0.23846810386666667
+        },
+        "days_to_next_dividend": {
+            "min": 0.0,
+            "max": 336.0,
+            "mean": 52.525333333333336
+        },
+        "volume_ratio": {
+            "min": 0.38566824783467385,
+            "max": 4.274089237729433,
+            "mean": 1.0559362654503672
+        },
+        "volume_delta": {
+            "min": -692502945.0,
+            "max": 764027454.0,
+            "mean": -1783652.951388889
+        }
+    }
+}

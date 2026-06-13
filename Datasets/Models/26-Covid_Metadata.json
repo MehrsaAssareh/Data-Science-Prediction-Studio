@@ -1,0 +1,503 @@
+{
+    "countries": [
+        "Australia",
+        "Belgium",
+        "Cambodia",
+        "Canada",
+        "Egypt",
+        "Finland",
+        "France",
+        "Germany",
+        "Hong Kong",
+        "India",
+        "Iran",
+        "Italy",
+        "Japan",
+        "Macau",
+        "Mainland China",
+        "Malaysia",
+        "Nepal",
+        "Others",
+        "Philippines",
+        "Russia",
+        "Singapore",
+        "South Korea",
+        "Spain",
+        "Sri Lanka",
+        "Sweden",
+        "Taiwan",
+        "Thailand",
+        "UK",
+        "US",
+        "United Arab Emirates",
+        "Vietnam"
+    ],
+    "max_allowed_date": "2020-08-18",
+    "latest_states": {
+        "Australia": {
+            "last_date": "2020-02-20",
+            "cum_cases": 15.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "Belgium": {
+            "last_date": "2020-02-20",
+            "cum_cases": 1.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "Cambodia": {
+            "last_date": "2020-02-20",
+            "cum_cases": 1.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "Canada": {
+            "last_date": "2020-02-20",
+            "cum_cases": 8.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "Egypt": {
+            "last_date": "2020-02-20",
+            "cum_cases": 1.0,
+            "last_7_cases": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "Finland": {
+            "last_date": "2020-02-20",
+            "cum_cases": 1.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "France": {
+            "last_date": "2020-02-20",
+            "cum_cases": 12.0,
+            "last_7_cases": [
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "Germany": {
+            "last_date": "2020-02-20",
+            "cum_cases": 16.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "Hong Kong": {
+            "last_date": "2020-02-20",
+            "cum_cases": 68.0,
+            "last_7_cases": [
+                3.0,
+                0.0,
+                1.0,
+                3.0,
+                2.0,
+                1.0,
+                5.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 1.0
+        },
+        "India": {
+            "last_date": "2020-02-20",
+            "cum_cases": 3.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "Iran": {
+            "last_date": "2020-02-20",
+            "cum_cases": 5.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                3.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "Italy": {
+            "last_date": "2020-02-20",
+            "cum_cases": 3.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "Japan": {
+            "last_date": "2020-02-20",
+            "cum_cases": 94.0,
+            "last_7_cases": [
+                1.0,
+                14.0,
+                16.0,
+                7.0,
+                8.0,
+                10.0,
+                10.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "Macau": {
+            "last_date": "2020-02-20",
+            "cum_cases": 10.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 1.0
+        },
+        "Mainland China": {
+            "last_date": "2020-02-20",
+            "cum_cases": 74999.0,
+            "last_7_cases": [
+                6460.0,
+                2055.0,
+                2099.0,
+                1918.0,
+                1775.0,
+                407.0,
+                453.0
+            ],
+            "last_death": 122.0,
+            "last_recov": 2050.0
+        },
+        "Malaysia": {
+            "last_date": "2020-02-20",
+            "cum_cases": 22.0,
+            "last_7_cases": [
+                0.0,
+                3.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "Nepal": {
+            "last_date": "2020-02-20",
+            "cum_cases": 1.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "Others": {
+            "last_date": "2020-02-20",
+            "cum_cases": 634.0,
+            "last_7_cases": [
+                43.0,
+                67.0,
+                70.0,
+                99.0,
+                88.0,
+                79.0,
+                13.0
+            ],
+            "last_death": 2.0,
+            "last_recov": 0.0
+        },
+        "Philippines": {
+            "last_date": "2020-02-20",
+            "cum_cases": 3.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "Russia": {
+            "last_date": "2020-02-20",
+            "cum_cases": 2.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "Singapore": {
+            "last_date": "2020-02-20",
+            "cum_cases": 84.0,
+            "last_7_cases": [
+                9.0,
+                5.0,
+                3.0,
+                2.0,
+                4.0,
+                3.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "South Korea": {
+            "last_date": "2020-02-20",
+            "cum_cases": 104.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                1.0,
+                0.0,
+                73.0
+            ],
+            "last_death": 1.0,
+            "last_recov": 4.0
+        },
+        "Spain": {
+            "last_date": "2020-02-20",
+            "cum_cases": 2.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "Sri Lanka": {
+            "last_date": "2020-02-20",
+            "cum_cases": 1.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "Sweden": {
+            "last_date": "2020-02-20",
+            "cum_cases": 1.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "Taiwan": {
+            "last_date": "2020-02-20",
+            "cum_cases": 24.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                2.0,
+                2.0,
+                0.0,
+                1.0,
+                1.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "Thailand": {
+            "last_date": "2020-02-20",
+            "cum_cases": 35.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "UK": {
+            "last_date": "2020-02-20",
+            "cum_cases": 9.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "US": {
+            "last_date": "2020-02-20",
+            "cum_cases": 15.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "United Arab Emirates": {
+            "last_date": "2020-02-20",
+            "cum_cases": 9.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        },
+        "Vietnam": {
+            "last_date": "2020-02-20",
+            "cum_cases": 16.0,
+            "last_7_cases": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "last_death": 0.0,
+            "last_recov": 0.0
+        }
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "feature_names": [
+        "Age",
+        "Sex",
+        "Steroid",
+        "Antivirals",
+        "Fatigue",
+        "Malaise",
+        "Anorexia",
+        "Liver_Big",
+        "Liver_Firm",
+        "Spleen_Palpable",
+        "Spiders",
+        "Ascites",
+        "Varices",
+        "Bilirubin",
+        "Alk_Phosphate",
+        "Sgot",
+        "Albumin",
+        "Protime",
+        "Histology"
+    ],
+    "feature_ranges": {
+        "Age": {
+            "min": 7.0,
+            "max": 78.0,
+            "mean": 41.2
+        },
+        "Bilirubin": {
+            "min": 0.3,
+            "max": 8.0,
+            "mean": 1.42751677852349
+        },
+        "Alk_Phosphate": {
+            "min": 26.0,
+            "max": 295.0,
+            "mean": 105.32539682539682
+        },
+        "Sgot": {
+            "min": 14.0,
+            "max": 648.0,
+            "mean": 85.89403973509934
+        },
+        "Albumin": {
+            "min": 2.1,
+            "max": 6.4,
+            "mean": 3.8172661870503597
+        },
+        "Protime": {
+            "min": 0.0,
+            "max": 100.0,
+            "mean": 61.85227272727273
+        }
+    },
+    "binary_cols": [
+        "Sex",
+        "Steroid",
+        "Antivirals",
+        "Fatigue",
+        "Malaise",
+        "Anorexia",
+        "Liver_Big",
+        "Liver_Firm",
+        "Spleen_Palpable",
+        "Spiders",
+        "Ascites",
+        "Varices",
+        "Histology"
+    ],
+    "numeric_cols": [
+        "Age",
+        "Bilirubin",
+        "Alk_Phosphate",
+        "Sgot",
+        "Albumin",
+        "Protime"
+    ]
+}

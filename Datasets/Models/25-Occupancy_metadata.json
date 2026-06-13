@@ -1,0 +1,36 @@
+{
+    "feature_names": [
+        "Temperature",
+        "Humidity",
+        "Light",
+        "CO2",
+        "HumidityRatio"
+    ],
+    "feature_ranges": {
+        "Temperature": {
+            "min": 19.0,
+            "max": 24.40833333,
+            "mean": 20.906212267812258
+        },
+        "Humidity": {
+            "min": 16.745,
+            "max": 39.5,
+            "mean": 27.655924792719844
+        },
+        "Light": {
+            "min": 0.0,
+            "max": 1697.25,
+            "mean": 130.75662219745115
+        },
+        "CO2": {
+            "min": 412.75,
+            "max": 2076.5,
+            "mean": 690.5532762409728
+        },
+        "HumidityRatio": {
+            "min": 0.002674127,
+            "max": 0.006476013,
+            "mean": 0.00422831409635214
+        }
+    }
+}

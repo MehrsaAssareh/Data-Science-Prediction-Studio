@@ -1,0 +1,53 @@
+{
+    "feature_names": [
+        "season",
+        "yr",
+        "mnth",
+        "hr",
+        "holiday",
+        "weekday",
+        "workingday",
+        "weathersit",
+        "temp",
+        "atemp",
+        "hum",
+        "windspeed"
+    ],
+    "numerical_cols": [
+        "temp",
+        "atemp",
+        "hum",
+        "windspeed"
+    ],
+    "categorical_cols": [
+        "season",
+        "mnth",
+        "hr",
+        "holiday",
+        "weekday",
+        "workingday",
+        "weathersit"
+    ],
+    "feature_ranges": {
+        "temp": {
+            "min": 0.02,
+            "max": 1.0,
+            "mean": 0.4969871684216583
+        },
+        "atemp": {
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.4757751021347604
+        },
+        "hum": {
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.6272288394038782
+        },
+        "windspeed": {
+            "min": 0.0,
+            "max": 0.8507,
+            "mean": 0.1900976063064618
+        }
+    }
+}

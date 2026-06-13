@@ -1,0 +1,74 @@
+{
+    "feature_names": [
+        "Fresh",
+        "Milk",
+        "Grocery",
+        "Frozen",
+        "Detergents_Paper",
+        "Delicassen",
+        "Channel_2",
+        "Region_2",
+        "Region_3"
+    ],
+    "feature_ranges": {
+        "Fresh": {
+            "min": 3.0,
+            "max": 112151.0,
+            "mean": 12000.297727272728
+        },
+        "Milk": {
+            "min": 55.0,
+            "max": 73498.0,
+            "mean": 5796.265909090909
+        },
+        "Grocery": {
+            "min": 3.0,
+            "max": 92780.0,
+            "mean": 7951.277272727273
+        },
+        "Frozen": {
+            "min": 25.0,
+            "max": 60869.0,
+            "mean": 3071.931818181818
+        },
+        "Detergents_Paper": {
+            "min": 3.0,
+            "max": 40827.0,
+            "mean": 2881.4931818181817
+        },
+        "Delicassen": {
+            "min": 3.0,
+            "max": 47943.0,
+            "mean": 1524.8704545454545
+        },
+        "Channel_2": {
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.32272727272727275
+        },
+        "Region_2": {
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.10681818181818181
+        },
+        "Region_3": {
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.7181818181818181
+        }
+    },
+    "channels": [
+        "1",
+        "2"
+    ],
+    "regions": [
+        "1",
+        "2",
+        "3"
+    ],
+    "cluster_descriptions": {
+        "0": "Retail-style segment with higher milk, grocery, and detergents spending",
+        "1": "Fresh-products segment with lower grocery and detergents spending",
+        "2": "Premium high-spending segment across several categories"
+    }
+}

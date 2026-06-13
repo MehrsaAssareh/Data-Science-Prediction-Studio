@@ -1,0 +1,34 @@
+{
+    "feature_names": [
+        "Category 1",
+        "Category 2",
+        "Category 3",
+        "Category 4",
+        "Category 5",
+        "Category 6",
+        "Category 7",
+        "Category 8",
+        "Category 9",
+        "Category 10"
+    ],
+    "cluster_descriptions": {
+        "0": "Parks/Picnic, Beaches, Religious Sites",
+        "1": "Religious Sites, Parks/Picnic, Beaches",
+        "2": "Parks/Picnic, Beaches, Religious Sites",
+        "3": "Parks/Picnic, Beaches, Religious Sites",
+        "4": "Parks/Picnic, Beaches, Religious Sites",
+        "5": "Parks/Picnic, Beaches, Religious Sites"
+    },
+    "category_map": {
+        "Category 1": "Art Galleries",
+        "Category 2": "Dance Clubs",
+        "Category 3": "Juice Bars",
+        "Category 4": "Restaurants",
+        "Category 5": "Museums",
+        "Category 6": "Resorts",
+        "Category 7": "Parks/Picnic",
+        "Category 8": "Beaches",
+        "Category 9": "Theaters",
+        "Category 10": "Religious Sites"
+    }
+}

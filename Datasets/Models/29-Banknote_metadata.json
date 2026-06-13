@@ -1,0 +1,38 @@
+{
+    "feature_names": [
+        "variance",
+        "skewness",
+        "curtosis",
+        "entropy"
+    ],
+    "numerical_cols": [
+        "variance",
+        "skewness",
+        "curtosis",
+        "entropy"
+    ],
+    "categorical_cols": [],
+    "categorical_options": {},
+    "feature_ranges": {
+        "variance": {
+            "min": -7.0421,
+            "max": 6.8248,
+            "mean": 0.4337352570699707
+        },
+        "skewness": {
+            "min": -13.7731,
+            "max": 12.9516,
+            "mean": 1.9223531206393585
+        },
+        "curtosis": {
+            "min": -5.2861,
+            "max": 17.9274,
+            "mean": 1.3976271172667638
+        },
+        "entropy": {
+            "min": -8.5482,
+            "max": 2.4495,
+            "mean": -1.1916565200437317
+        }
+    }
+}

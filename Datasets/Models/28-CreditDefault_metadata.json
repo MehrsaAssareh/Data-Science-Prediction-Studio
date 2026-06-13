@@ -1,0 +1,177 @@
+{
+    "feature_names": [
+        "LIMIT_BAL",
+        "SEX",
+        "EDUCATION",
+        "MARRIAGE",
+        "AGE",
+        "PAY_0",
+        "PAY_2",
+        "PAY_3",
+        "PAY_4",
+        "PAY_5",
+        "PAY_6",
+        "BILL_AMT1",
+        "BILL_AMT2",
+        "BILL_AMT3",
+        "BILL_AMT4",
+        "BILL_AMT5",
+        "BILL_AMT6",
+        "PAY_AMT1",
+        "PAY_AMT2",
+        "PAY_AMT3",
+        "PAY_AMT4",
+        "PAY_AMT5",
+        "PAY_AMT6"
+    ],
+    "numerical_cols": [
+        "LIMIT_BAL",
+        "AGE",
+        "PAY_0",
+        "PAY_2",
+        "PAY_3",
+        "PAY_4",
+        "PAY_5",
+        "PAY_6",
+        "BILL_AMT1",
+        "BILL_AMT2",
+        "BILL_AMT3",
+        "BILL_AMT4",
+        "BILL_AMT5",
+        "BILL_AMT6",
+        "PAY_AMT1",
+        "PAY_AMT2",
+        "PAY_AMT3",
+        "PAY_AMT4",
+        "PAY_AMT5",
+        "PAY_AMT6"
+    ],
+    "categorical_cols": [
+        "SEX",
+        "EDUCATION",
+        "MARRIAGE"
+    ],
+    "categorical_options": {
+        "SEX": [
+            "1",
+            "2"
+        ],
+        "EDUCATION": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "MARRIAGE": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
+    },
+    "feature_ranges": {
+        "LIMIT_BAL": {
+            "min": 10000.0,
+            "max": 1000000.0,
+            "mean": 167484.32266666667
+        },
+        "AGE": {
+            "min": 21.0,
+            "max": 79.0,
+            "mean": 35.4855
+        },
+        "PAY_0": {
+            "min": -2.0,
+            "max": 8.0,
+            "mean": -0.0167
+        },
+        "PAY_2": {
+            "min": -2.0,
+            "max": 8.0,
+            "mean": -0.13376666666666667
+        },
+        "PAY_3": {
+            "min": -2.0,
+            "max": 8.0,
+            "mean": -0.1662
+        },
+        "PAY_4": {
+            "min": -2.0,
+            "max": 8.0,
+            "mean": -0.22066666666666668
+        },
+        "PAY_5": {
+            "min": -2.0,
+            "max": 8.0,
+            "mean": -0.2662
+        },
+        "PAY_6": {
+            "min": -2.0,
+            "max": 8.0,
+            "mean": -0.2911
+        },
+        "BILL_AMT1": {
+            "min": -165580.0,
+            "max": 964511.0,
+            "mean": 51223.3309
+        },
+        "BILL_AMT2": {
+            "min": -69777.0,
+            "max": 983931.0,
+            "mean": 49179.07516666667
+        },
+        "BILL_AMT3": {
+            "min": -157264.0,
+            "max": 1664089.0,
+            "mean": 47013.1548
+        },
+        "BILL_AMT4": {
+            "min": -170000.0,
+            "max": 891586.0,
+            "mean": 43262.94896666666
+        },
+        "BILL_AMT5": {
+            "min": -81334.0,
+            "max": 927171.0,
+            "mean": 40311.40096666667
+        },
+        "BILL_AMT6": {
+            "min": -339603.0,
+            "max": 961664.0,
+            "mean": 38871.7604
+        },
+        "PAY_AMT1": {
+            "min": 0.0,
+            "max": 873552.0,
+            "mean": 5663.5805
+        },
+        "PAY_AMT2": {
+            "min": 0.0,
+            "max": 1684259.0,
+            "mean": 5921.1635
+        },
+        "PAY_AMT3": {
+            "min": 0.0,
+            "max": 896040.0,
+            "mean": 5225.6815
+        },
+        "PAY_AMT4": {
+            "min": 0.0,
+            "max": 621000.0,
+            "mean": 4826.076866666666
+        },
+        "PAY_AMT5": {
+            "min": 0.0,
+            "max": 426529.0,
+            "mean": 4799.387633333334
+        },
+        "PAY_AMT6": {
+            "min": 0.0,
+            "max": 528666.0,
+            "mean": 5215.502566666667
+        }
+    }
+}
