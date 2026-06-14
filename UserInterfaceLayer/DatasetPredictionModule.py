@@ -342,3 +342,10 @@ class DatasetPredictionFrame(Frame):
 
     def back(self):
         self.main_view.switch('Main')
+
+    def destroy(self):
+        self.page_photo_image = None
+        self.input_variables.clear()
+        self.input_widgets.clear()
+        self.placeholder_entries.clear()
+        super().destroy()

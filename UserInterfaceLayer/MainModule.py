@@ -99,3 +99,8 @@ class MainFrame(Frame):
 
     def open_dataset(self, dataset_key):
         self.main_view.switch(f'Dataset:{dataset_key}')
+
+    def destroy(self):
+        self.header_icon_image = None
+        self.button_images.clear()
+        super().destroy()

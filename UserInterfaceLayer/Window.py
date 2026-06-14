@@ -106,3 +106,7 @@ class window(Window):
 
     def show(self):
         self.mainloop()
+
+    def destroy(self):
+        self.app_icon_images = []
+        super().destroy()
