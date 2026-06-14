@@ -102,17 +102,29 @@ class window(Window):
 
         try:
             self.resizable(True, True)
+            self.unlock_window_size()
+            self.attributes('-fullscreen', False)
+            self.overrideredirect(False)
             self.state('zoomed')
             self.update_idletasks()
-            self.resizable(False, False)
+            self.lock_current_size()
             self.fullsize_applied = True
             return
         except Exception:
             pass
 
         self.center_window(fallback_size)
-        self.resizable(False, False)
+        self.lock_current_size()
         self.fullsize_applied = True
+
+    def unlock_window_size(self):
+        self.minsize(320, 320)
+        self.maxsize(self.winfo_screenwidth(), self.winfo_screenheight())
+
+    def lock_current_size(self):
+        self.update_idletasks()
+        self.minsize(self.winfo_width(), self.winfo_height())
+        self.maxsize(self.winfo_width(), self.winfo_height())
 
     def get_work_area(self):
         try:
