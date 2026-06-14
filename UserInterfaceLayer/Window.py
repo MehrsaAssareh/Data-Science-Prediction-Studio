@@ -22,13 +22,14 @@ class window(Window):
         self.set_windows_app_id()
         super().__init__(title="Data Science Prediction Studio", themename="solar")
 
+        self.fullsize_applied = False
         self.set_app_icon()
         self.resizable(True, True)
         self.grid_columnconfigure(0, weight=1)
         self.grid_rowconfigure(0, weight=1)
-        self.open_fullsize(size)
+        self.open_fullsize(size, force=True)
         self.after(200, self.set_app_icon)
-        self.after(250, self.open_fullsize)
+        self.after(250, lambda: self.open_fullsize(force=True))
 
     def set_windows_app_id(self):
         try:
@@ -91,9 +92,12 @@ class window(Window):
         self.geometry(f"{width}x{height}+{x}+{y}")
 
     def fit_to_content(self, frame, min_width=980, min_height=700, extra_width=24, extra_height=24):
-        self.open_fullsize()
+        self.update_idletasks()
 
-    def open_fullsize(self, fallback_size=APP_WINDOW_SIZE):
+    def open_fullsize(self, fallback_size=APP_WINDOW_SIZE, force=False):
+        if self.fullsize_applied and not force:
+            return
+
         self.update_idletasks()
 
         try:
@@ -101,12 +105,14 @@ class window(Window):
             self.state('zoomed')
             self.update_idletasks()
             self.resizable(False, False)
+            self.fullsize_applied = True
             return
         except Exception:
             pass
 
         self.center_window(fallback_size)
         self.resizable(False, False)
+        self.fullsize_applied = True
 
     def get_work_area(self):
         try:
