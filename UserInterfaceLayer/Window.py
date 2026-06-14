@@ -23,7 +23,7 @@ class window(Window):
         super().__init__(title="Data Science Prediction Studio", themename="solar")
 
         self.set_app_icon()
-        self.resizable(False, False)
+        self.resizable(True, True)
         self.grid_columnconfigure(0, weight=1)
         self.grid_rowconfigure(0, weight=1)
         self.open_fullsize(size)
@@ -97,11 +97,9 @@ class window(Window):
         self.update_idletasks()
 
         try:
-            left, top, right, bottom = self.get_work_area()
-            width = max(1200, right - left)
-            height = max(720, bottom - top)
-            self.state('normal')
-            self.geometry(f"{width}x{height}+{left}+{top}")
+            self.resizable(True, True)
+            self.state('zoomed')
+            self.update_idletasks()
             self.resizable(False, False)
             return
         except Exception:
