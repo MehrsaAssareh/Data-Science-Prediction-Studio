@@ -141,22 +141,29 @@ class DatasetPredictionFrame(Frame):
     def create_input_fields(self):
         label_wraplength = self.get_label_wraplength()
         entry_width = self.get_entry_width()
+        dense_form = self.field_columns >= 5
+        field_pady = 1 if dense_form else 4
+        label_pady_bottom = 0 if dense_form else 2
+        label_font = ('Arial', 9) if dense_form else None
 
         for index, field in enumerate(self.fields):
             row = index // self.field_columns
             column = index % self.field_columns
 
             field_frame = Frame(self.input_frame)
-            field_frame.grid(row=row, column=column, padx=6, pady=4, sticky='nsew')
+            field_frame.grid(row=row, column=column, padx=6, pady=field_pady, sticky='nsew')
             field_frame.grid_columnconfigure(0, weight=1)
 
-            field_label = Label(
-                field_frame,
-                text=f"{field.get('label', field['name'])}:",
-                wraplength=label_wraplength,
-                justify='left'
-            )
-            field_label.grid(row=0, column=0, pady=(0, 2), sticky='w')
+            label_options = {
+                'text': f"{field.get('label', field['name'])}:",
+                'wraplength': label_wraplength,
+                'justify': 'left'
+            }
+            if label_font:
+                label_options['font'] = label_font
+
+            field_label = Label(field_frame, **label_options)
+            field_label.grid(row=0, column=0, pady=(0, label_pady_bottom), sticky='w')
 
             variable = StringVar(value=str(field.get('placeholder', field.get('default', ''))))
             self.input_variables[field['name']] = variable
@@ -249,7 +256,7 @@ class DatasetPredictionFrame(Frame):
             2: 560,
             3: 390,
             4: 300,
-            5: 235
+            5: 210
         }
         return wraplength_by_columns.get(self.field_columns, 300)
 
@@ -258,7 +265,7 @@ class DatasetPredictionFrame(Frame):
             2: 36,
             3: 32,
             4: 28,
-            5: 24
+            5: 20
         }
         return width_by_columns.get(self.field_columns, 28)
 
